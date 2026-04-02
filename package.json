@@ -25,7 +25,7 @@
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-webpack-plugin": "^4.0.1",
+    "eslint-webpack-plugin": "^5.0.3",
     "prettier": "^2.8.8",
     "prettier-loader": "^3.3.0",
     "terser-webpack-plugin": "^5.3.7",
