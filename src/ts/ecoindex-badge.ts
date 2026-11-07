@@ -113,8 +113,8 @@ const displayBadge = (): void => {
             if (response.ok) {
                 return response.json();
             }
-            return new Promise((resolve, reject) =>
-                reject(`Erreur dans l'appel à l'écoindex de : ${currentUrl}`)
+            throw new Error(
+                `Erreur dans l'appel à l'écoindex de : ${currentUrl}`
             );
         })
         .then((data: ApiResponseInterface) => {
