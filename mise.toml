@@ -7,3 +7,19 @@ node = "26"
 
 [deps.npm]
 auto = true
+
+[tasks.build]
+run = "npx rolldown -c rolldown.config.ts"
+
+[tasks.format]
+env.NODE_OPTIONS = "--experimental-strip-types"
+run = "npx prettier ."
+
+[tasks."format:fix"]
+run = { task = "format", args = ["--write"] }
+
+[tasks.lint]
+run = "npx eslint ."
+
+[tasks."lint:fix"]
+run = { task = "lint", args = ["--fix"] }

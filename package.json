@@ -2,13 +2,6 @@
   "name": "ecoindex_badge",
   "version": "1.0.0",
   "description": "[![](https://data.jsdelivr.com/v1/package/gh/cnumr/ecoindex_badge/badge)](https://www.jsdelivr.com/package/gh/cnumr/ecoindex_badge)",
-  "scripts": {
-    "build": "rolldown -c rolldown.config.ts",
-    "format": "NODE_OPTIONS=\"--experimental-strip-types\" prettier . --check",
-    "format:fix": "NODE_OPTIONS=\"--experimental-strip-types\" prettier . --write",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
-  },
   "license": "AGPL-3.0-only",
   "devDependencies": {
     "@eslint/js": "^10.0.1",

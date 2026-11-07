@@ -16,7 +16,7 @@ jobs:
           experimental: true
 
       - name: '🚨 Lint source code'
-        run: npm run lint
+        run: mise run lint
 
       - name: '🚨 Format source code'
-        run: npm run format
+        run: mise run format
